@@ -10,3 +10,27 @@ h2 {
     text-align: center;
     color: red;
 }
+	#header {
+		background: #1c1c1c;
+		color: #d5d5d4;
+		cursor: default;
+		height: 5em;
+		left: 0;
+		line-height: 5em;
+		position: fixed;
+		text-align: right;
+		top: 0;
+		width: 100%;
+		z-index: 10001;
+		text-align:center;
+	}
+	a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+	a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
