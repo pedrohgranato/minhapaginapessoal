@@ -1,0 +1,12 @@
+body { 
+    display: block;
+    margin: 100px;
+}
+ 
+body:focus { 
+    outline: none;
+}
+h2 {
+    text-align: center;
+    color: red;
+}
