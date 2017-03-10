@@ -84,3 +84,10 @@ article.contact {
     background-color: white;
     text-align: justify;
 }
+
+#form{
+background-color: black;
+}
+form.form{
+background-color: black;
+}

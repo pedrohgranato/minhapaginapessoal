@@ -1,110 +1,118 @@
-body { 
-    display: block;
-    margin: 100px;
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
 }
 
-#formu {
-    background-color: white;
-	
-}
-#inside_form{
-	background-color:#1c1c1c ;
-
-	line-height: 1em;
-	position: fixed;
-	text-align: left;
-	color:white;
-	width: 30%;
-	height: 48%;
-}
- 
-body:focus { 
-    outline: none;
-}
-
-	#header {
-		background: #1c1c1c;
-		color: #d5d5d4;
-		cursor: default;
-		height: 5em;
-		left: 0;
-		line-height: 5em;
-		position: fixed;
-		text-align: right;
-		top: 0;
-		width: 100%;
-		z-index: 10001;
-		text-align:center;
-	}
-	
-	a.menu:link,a.menu:visited {
+a.menu:link,a.menu:visited {
     color: white;
     background-color: transparent;
     text-decoration: none;
-	}
-	a.other_link:link,a.other_link:visited {
-    color: #6b6767;
-    background-color: transparent;
-    text-decoration: none;
-	}
-	h2.name{
-		text-align:center;
-		color: black;
-	}
-	p.resume{
-
-		text-align: justify;
-		color:white;
-	}
-.profile {
-    position: relative;
-    width: 50%;
+    text-align: center;
+    padding-right: 1cm;
+    font-family: helvetica;
+    font-size:24px;
 }
-
-.image {
-  opacity: 1;
-  display: block;
-  width: 50;
-  height: 50;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  border-radius: 8px;
-
-
-
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
-  
-}
-
-.profile:hover .image {
-  opacity: 0.3;
-}
-
-.profile:hover .middle {
-  opacity: 1;
-}
-
-.text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-	#resume {
-    border: 10px solid black;
-    padding: 35px;
+header, footer {
+    padding: 1em;
+    color: white;
     background-color: black;
-    background-repeat: no-repeat;
+    clear: left;
+    text-align: center;
+}
 
-    
+nav {
+    float: left;
+    max-width: 1600px;
+    margin: 0;
+    padding: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+
+}
+
+article.resume {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    font-family: helvetica;
+    padding: 1em;
+    overflow: hidden;
+    text-align: justify;
+}
+    #header{
+        background: #1c1c1c;
+        color: #d5d5d4;
+        
+    }
+
+    img.profile {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+}
+p.resume{
+    font-family: helvetica;
+    text-align: justify;
+}
+
+article.college {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    font-family: helvetica ;
+    padding: 1em;
+    overflow: hidden;
+    background-color: #F2F2F2;
+    text-align: justify;
+}
+article.contact {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    font-family: helvetica ;
+    padding: 1em;
+    overflow: hidden;
+    background-color: white;
+    text-align: justify;
+}
+
+div.div_form {
+    width:50%;
+    border: 1px solid gray;
+    margin-left: 300px;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: hidden;
+    border-top: hidden;
+    font-family: helvetica ;
+    padding: 1em;
+    overflow: hidden;
+    background-color: white;
+    text-align: left;
+}
+#form{
+        background: white;
+        color: black;
+        font-family: helvetica ;
+    }
+    .button {
+    background-color: #1c1c1c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }

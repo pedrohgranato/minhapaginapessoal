@@ -1,48 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style/style.css">
-  <meta charset="utf-8">
-  <title>Pedro Henrique Granato Damasceno</title>
+<link rel="stylesheet" href="style/style.css">
+
 </head>
-<body id="formu">
+<body >
+
+<div class="container">
 
 <header id="header">
-        <div class="inner">
-          <nav id="nav">
-            <a class="menu" href="index.html">Home</a>
-            <a class="menu" href="form.html">Contato</a>
-          </nav>
-        </div>
-      </header>
-      
-<form id="inside_form">
-<fieldset>
+  <div>
+   <h1><a class="menu" href="index.html">Home</a>   <a class="menu" href="form.html">Contato</a>
+   </div>
+</header>
+
+
+   <div class="div_form">
+<form>
+<fieldset id="form">
     <legend>Formulario:</legend>
    Nome:<br>
-  <input type="text" name="nome">
-  <br>
-  Telefone:<br>
-  <input type="text" name="telefone">
-  <br>
+  <input type="text" name="nome" id=nome>
+  &nbsp&nbsp&nbsp&nbsp&nbspSobrenome:
+  <input type="text" name="sobrenome">
+  <br><br>
   Email:<br>
-  <input type="text" name="telefone">
+  <input type="text" name="email">
+  &nbsp&nbsp&nbsp&nbsp&nbspTelefone:
+  &nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="telefone">
   <br>
   <br>Motivo Contato:<br>
   
-  <br><input type="radio" name="motivo" value="Vaga">Vaga Emprego<br>
-  <input type="radio" name="motivo" value="teste1">teste 1  <br>
-  <input type="radio" name="motivo" value="teste2">teste 2<br>
-  <input type="radio" name="motivo" value="teste3">teste 3<br>
+  <br><input type="radio" name="motivo" value="Vaga">teste&nbsp&nbsp&nbsp&nbsp&nbsp
+  <input type="radio" name="motivo" value="teste1">teste<br>
+  <input type="radio" name="motivo" value="teste2">teste&nbsp&nbsp&nbsp&nbsp&nbsp
+  <input type="radio" name="motivo" value="teste3">teste<br>
+
+  <br><br>
 
   Comentarios Gerais:<br>
-  <input type="text" name="Comentarios">
+  <textarea type="text" name="Comentarios" rows="5" cols="30"></textarea>
+  <br>
+   <button class="button" type="button" onclick="alert('Formulario Enviado Com Sucesso')">Enviar</button>
 
-  <button type="button" onclick="alert()">Enviar</button>
-  
    </fieldset>
 </form> 
-
+</div>
+<br><br><br><br><br>
+<footer>Copyright &copy;</footer>
 
 </body>
 </html>
